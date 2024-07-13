@@ -48,6 +48,7 @@ apt autoremove dmenu libreoffice-math libreoffice-draw libreoffice-draw libreoff
 mkdir -p "$home_dir"/.local/share/
 mkdir "$home_dir"/.config/
 cp -r .scripts/ "$home_dir"
+sudo cp -r /usr/share/themes/Yaru /usr/share/themes/Yaru-dark /usr/share/themes/Yaru-sage /usr/share/themes/Yaru-sage-dark ~/.local/share/themes/
 cp -r wallpapers/ "$home_dir"/.local/share/
 cp -r icons/ "$home_dir"/.local/share/
 cp .bashrc "$home_dir"/
